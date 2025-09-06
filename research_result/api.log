@@ -1,0 +1,94 @@
+2025-09-05 17:06:32 - api - INFO - API请求: {"method": "POST", "endpoint": "/run", "timestamp": "2025-09-05T17:06:32.321910", "user_agent": "python-requests/2.31.0", "client_ip": "127.0.0.1", "request_data": {"query": "A Geopolitical Impact Analysis of the Commercial Development of the Arctic Shipping Routes", "checkpoint": "research_result/checkpoint.json", "resume": false, "word_limit": 2000, "stream": true}}
+2025-09-05 17:06:32 - api - INFO - 工作流事件: {"event_type": "stream_start", "node_name": "workflow", "status": "开始流式处理", "timestamp": "2025-09-05T17:06:32.393906"}
+2025-09-05 17:06:32 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "problem_understanding", "status": "执行中", "timestamp": "2025-09-05T17:06:32.839849"}
+2025-09-05 17:06:32 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T17:06:32.840739"}
+2025-09-05 17:06:32 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "problem_understanding", "status": "完成", "timestamp": "2025-09-05T17:06:32.841029", "duration": "0.001s"}
+2025-09-05 17:06:39 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "structure_planning", "status": "执行中", "timestamp": "2025-09-05T17:06:39.374673"}
+2025-09-05 17:06:39 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T17:06:39.375928"}
+2025-09-05 17:06:39 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "structure_planning", "status": "完成", "timestamp": "2025-09-05T17:06:39.376512", "duration": "0.002s"}
+2025-09-05 22:00:54 - api - INFO - API请求: {"method": "POST", "endpoint": "/run", "timestamp": "2025-09-05T22:00:54.302436", "user_agent": "python-requests/2.31.0", "client_ip": "127.0.0.1", "request_data": {"query": "An Analysis of the Humanitarian and Political Dimensions of International Migration and Refugee Crises", "checkpoint": "research_result/checkpoint.json", "resume": false, "word_limit": 2000, "stream": true}}
+2025-09-05 22:00:54 - api - INFO - 工作流事件: {"event_type": "stream_start", "node_name": "workflow", "status": "开始流式处理", "timestamp": "2025-09-05T22:00:54.406499"}
+2025-09-05 22:00:54 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "problem_understanding", "status": "执行中", "timestamp": "2025-09-05T22:00:54.835505"}
+2025-09-05 22:00:54 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:00:54.836369"}
+2025-09-05 22:00:54 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "problem_understanding", "status": "完成", "timestamp": "2025-09-05T22:00:54.836640", "duration": "0.001s"}
+2025-09-05 22:00:59 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "structure_planning", "status": "执行中", "timestamp": "2025-09-05T22:00:59.327971"}
+2025-09-05 22:00:59 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:00:59.329289"}
+2025-09-05 22:00:59 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "structure_planning", "status": "完成", "timestamp": "2025-09-05T22:00:59.329516", "duration": "0.002s"}
+2025-09-05 22:06:08 - api - INFO - API请求: {"method": "POST", "endpoint": "/run", "timestamp": "2025-09-05T22:06:08.201679", "user_agent": "python-requests/2.31.0", "client_ip": "127.0.0.1", "request_data": {"query": "An Analysis of the Humanitarian and Political Dimensions of International Migration and Refugee Crises", "checkpoint": "research_result/checkpoint.json", "resume": false, "word_limit": 2000, "stream": true}}
+2025-09-05 22:06:08 - api - INFO - 工作流事件: {"event_type": "stream_start", "node_name": "workflow", "status": "开始流式处理", "timestamp": "2025-09-05T22:06:08.283333"}
+2025-09-05 22:06:08 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "problem_understanding", "status": "执行中", "timestamp": "2025-09-05T22:06:08.761748"}
+2025-09-05 22:06:08 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:06:08.764518"}
+2025-09-05 22:06:08 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "problem_understanding", "status": "完成", "timestamp": "2025-09-05T22:06:08.764865", "duration": "0.003s"}
+2025-09-05 22:06:15 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "structure_planning", "status": "执行中", "timestamp": "2025-09-05T22:06:15.721849"}
+2025-09-05 22:06:15 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:06:15.723152"}
+2025-09-05 22:06:15 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "structure_planning", "status": "完成", "timestamp": "2025-09-05T22:06:15.723445", "duration": "0.002s"}
+2025-09-05 22:08:26 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "knowledge_retrieval", "status": "执行中", "timestamp": "2025-09-05T22:08:26.506076"}
+2025-09-05 22:08:26 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:08:26.508980"}
+2025-09-05 22:08:26 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "knowledge_retrieval", "status": "完成", "timestamp": "2025-09-05T22:08:26.509275", "duration": "0.003s"}
+2025-09-05 22:09:50 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "writing_polishing", "status": "执行中", "timestamp": "2025-09-05T22:09:50.274091"}
+2025-09-05 22:09:50 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:09:50.275577"}
+2025-09-05 22:09:50 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "writing_polishing", "status": "完成", "timestamp": "2025-09-05T22:09:50.275778", "duration": "0.002s"}
+2025-09-05 22:09:54 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "validation", "status": "执行中", "timestamp": "2025-09-05T22:09:54.008058"}
+2025-09-05 22:09:54 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:09:54.023869"}
+2025-09-05 22:09:54 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "validation", "status": "完成", "timestamp": "2025-09-05T22:09:54.024335", "duration": "0.016s"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "revision", "status": "执行中", "timestamp": "2025-09-05T22:11:26.907671"}
+2025-09-05 22:11:26 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:11:26.913031"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "revision", "status": "完成", "timestamp": "2025-09-05T22:11:26.913982", "duration": "0.006s"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "validation", "status": "执行中", "timestamp": "2025-09-05T22:11:26.920845"}
+2025-09-05 22:11:26 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:11:26.923469"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "validation", "status": "完成", "timestamp": "2025-09-05T22:11:26.923760", "duration": "0.003s"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "generate_report", "status": "执行中", "timestamp": "2025-09-05T22:11:26.940745"}
+2025-09-05 22:11:26 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-05T22:11:26.942942"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "generate_report", "status": "完成", "timestamp": "2025-09-05T22:11:26.943360", "duration": "0.003s"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "revision_check", "node_name": "workflow", "status": "检查修订状态", "timestamp": "2025-09-05T22:11:26.943734", "details": "验证状态: validated, 修订次数: 1"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "revision_status", "node_name": "workflow", "status": "验证通过", "timestamp": "2025-09-05T22:11:26.944041", "details": "无需进一步修订"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "final_report", "node_name": "workflow", "status": "推送最终报告", "timestamp": "2025-09-05T22:11:26.945973", "details": "字数: 4289"}
+2025-09-05 22:11:26 - api - INFO - 工作流事件: {"event_type": "workflow_completion", "node_name": "workflow", "status": "完成", "timestamp": "2025-09-05T22:11:26.946469", "details": "总步骤: 8"}
+2025-09-06 10:20:47 - api - INFO - API请求: {"method": "POST", "endpoint": "/run", "timestamp": "2025-09-06T10:20:47.208371", "user_agent": "python-requests/2.31.0", "client_ip": "127.0.0.1", "request_data": {"query": "An Analysis of the Humanitarian and Political Dimensions of International Migration and Refugee Crises", "checkpoint": "research_result/checkpoint.json", "resume": false, "word_limit": 2000, "stream": true}}
+2025-09-06 10:20:47 - api - INFO - 工作流事件: {"event_type": "stream_start", "node_name": "workflow", "status": "开始流式处理", "timestamp": "2025-09-06T10:20:47.482554"}
+2025-09-06 10:20:49 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "problem_understanding", "status": "执行中", "timestamp": "2025-09-06T10:20:49.000398"}
+2025-09-06 10:20:49 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:20:49.002075"}
+2025-09-06 10:20:49 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "problem_understanding", "status": "完成", "timestamp": "2025-09-06T10:20:49.002434", "duration": "0.002s"}
+2025-09-06 10:20:57 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "structure_planning", "status": "执行中", "timestamp": "2025-09-06T10:20:57.196834"}
+2025-09-06 10:20:57 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:20:57.199043"}
+2025-09-06 10:20:57 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "structure_planning", "status": "完成", "timestamp": "2025-09-06T10:20:57.199348", "duration": "0.003s"}
+2025-09-06 10:23:32 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "knowledge_retrieval", "status": "执行中", "timestamp": "2025-09-06T10:23:32.668634"}
+2025-09-06 10:23:32 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:23:32.692129"}
+2025-09-06 10:23:32 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "knowledge_retrieval", "status": "完成", "timestamp": "2025-09-06T10:23:32.692637", "duration": "0.024s"}
+2025-09-06 10:24:33 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "writing_polishing", "status": "执行中", "timestamp": "2025-09-06T10:24:33.324282"}
+2025-09-06 10:24:33 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:24:33.325913"}
+2025-09-06 10:24:33 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "writing_polishing", "status": "完成", "timestamp": "2025-09-06T10:24:33.326138", "duration": "0.002s"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "validation", "status": "执行中", "timestamp": "2025-09-06T10:24:36.727440"}
+2025-09-06 10:24:36 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:24:36.729054"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "validation", "status": "完成", "timestamp": "2025-09-06T10:24:36.729280", "duration": "0.002s"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "generate_report", "status": "执行中", "timestamp": "2025-09-06T10:24:36.738700"}
+2025-09-06 10:24:36 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:24:36.740724"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "generate_report", "status": "完成", "timestamp": "2025-09-06T10:24:36.740997", "duration": "0.002s"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "revision_check", "node_name": "workflow", "status": "检查修订状态", "timestamp": "2025-09-06T10:24:36.741280", "details": "验证状态: validated, 修订次数: 0"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "revision_status", "node_name": "workflow", "status": "验证通过", "timestamp": "2025-09-06T10:24:36.741515", "details": "无需进一步修订"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "final_report", "node_name": "workflow", "status": "推送最终报告", "timestamp": "2025-09-06T10:24:36.742983", "details": "字数: 3260"}
+2025-09-06 10:24:36 - api - INFO - 工作流事件: {"event_type": "workflow_completion", "node_name": "workflow", "status": "完成", "timestamp": "2025-09-06T10:24:36.743264", "details": "总步骤: 6"}
+2025-09-06 10:29:24 - api - INFO - API请求: {"method": "POST", "endpoint": "/run", "timestamp": "2025-09-06T10:29:24.694238", "user_agent": "python-requests/2.31.0", "client_ip": "127.0.0.1", "request_data": {"query": "An Exploration of Global Food Security and Supply Chain Resilience Issues", "checkpoint": "research_result/checkpoint.json", "resume": false, "word_limit": 2000, "stream": true}}
+2025-09-06 10:29:24 - api - INFO - 工作流事件: {"event_type": "stream_start", "node_name": "workflow", "status": "开始流式处理", "timestamp": "2025-09-06T10:29:24.773687"}
+2025-09-06 10:29:25 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "problem_understanding", "status": "执行中", "timestamp": "2025-09-06T10:29:25.218974"}
+2025-09-06 10:29:25 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:29:25.222623"}
+2025-09-06 10:29:25 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "problem_understanding", "status": "完成", "timestamp": "2025-09-06T10:29:25.222896", "duration": "0.004s"}
+2025-09-06 10:29:30 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "structure_planning", "status": "执行中", "timestamp": "2025-09-06T10:29:30.556178"}
+2025-09-06 10:29:30 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:29:30.558877"}
+2025-09-06 10:29:30 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "structure_planning", "status": "完成", "timestamp": "2025-09-06T10:29:30.559222", "duration": "0.003s"}
+2025-09-06 10:31:00 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "knowledge_retrieval", "status": "执行中", "timestamp": "2025-09-06T10:31:00.903544"}
+2025-09-06 10:31:00 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:31:00.908475"}
+2025-09-06 10:31:00 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "knowledge_retrieval", "status": "完成", "timestamp": "2025-09-06T10:31:00.909581", "duration": "0.006s"}
+2025-09-06 10:33:19 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "writing_polishing", "status": "执行中", "timestamp": "2025-09-06T10:33:19.332725"}
+2025-09-06 10:33:19 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:33:19.337222"}
+2025-09-06 10:33:19 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "writing_polishing", "status": "完成", "timestamp": "2025-09-06T10:33:19.337683", "duration": "0.005s"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "validation", "status": "执行中", "timestamp": "2025-09-06T10:33:23.461074"}
+2025-09-06 10:33:23 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:33:23.462838"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "validation", "status": "完成", "timestamp": "2025-09-06T10:33:23.464535", "duration": "0.003s"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "node_execution", "node_name": "generate_report", "status": "执行中", "timestamp": "2025-09-06T10:33:23.476724"}
+2025-09-06 10:33:23 - api - INFO - 检查点操作: {"operation": "save", "checkpoint_path": "research_result/checkpoint.json", "success": true, "timestamp": "2025-09-06T10:33:23.480057"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "node_completion", "node_name": "generate_report", "status": "完成", "timestamp": "2025-09-06T10:33:23.480336", "duration": "0.004s"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "revision_check", "node_name": "workflow", "status": "检查修订状态", "timestamp": "2025-09-06T10:33:23.480543", "details": "验证状态: validated, 修订次数: 0"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "revision_status", "node_name": "workflow", "status": "验证通过", "timestamp": "2025-09-06T10:33:23.480678", "details": "无需进一步修订"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "final_report", "node_name": "workflow", "status": "推送最终报告", "timestamp": "2025-09-06T10:33:23.483285", "details": "字数: 7177"}
+2025-09-06 10:33:23 - api - INFO - 工作流事件: {"event_type": "workflow_completion", "node_name": "workflow", "status": "完成", "timestamp": "2025-09-06T10:33:23.483639", "details": "总步骤: 6"}

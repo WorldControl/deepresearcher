@@ -1,0 +1,85 @@
+# Git相关
+.git
+.gitignore
+.gitattributes
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+
+# 环境和配置
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 部署相关
+deploy/
+docker-compose*
+Dockerfile*
+.dockerignore
+
+# 文档
+README*.md
+docs/
+*.md
+
+# 研究结果缓存（构建时排除，运行时通过volume挂载）
+research_result/cache/*
+research_result/reports/*
+!research_result/.gitkeep
+
+# 开发工具
+.pytest_cache/
+.mypy_cache/
+.black
+.flake8

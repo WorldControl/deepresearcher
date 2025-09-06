@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  deep-researcher:
+    build: 
+      context: ../../
+      dockerfile: deploy/docker/Dockerfile
+    container_name: deep-researcher-app
+    ports:
+      - "8000:8000"   # API服务器
+      - "8501:8501"   # Streamlit前端
+    environment:
+      - PYTHONPATH=/app
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_PORT=8501
+    env_file:
+      - ../../.env
+    volumes:
+      - ../../research_result:/app/research_result
+      - ../../configs:/app/configs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - deep-researcher-network
+
+networks:
+  deep-researcher-network:
+    driver: bridge

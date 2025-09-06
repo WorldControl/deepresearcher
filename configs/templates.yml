@@ -1,0 +1,183 @@
+# configs/templates.yaml
+templates:
+  overview:  # 概述型报告
+    title: "概述报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["报告的核心结论是什么？", "主要发现有哪些？"]
+      - title: "引言"
+        key_questions: ["报告的背景是什么？", "研究目的是什么？"]
+      - title: "核心概念界定"
+        key_questions: ["关键术语的定义是什么？", "概念的边界在哪里？"]
+      - title: "现状分析"
+        key_questions: ["当前状况如何？", "主要特征是什么？"]
+      - title: "发展趋势"
+        key_questions: ["未来发展方向是什么？", "主要趋势有哪些？"]
+      - title: "案例研究"
+        key_questions: ["有哪些典型案例？", "案例的启示是什么？"]
+      - title: "结论与展望"
+        key_questions: ["主要结论是什么？", "未来展望如何？"]
+
+  comparison:  # 对比分析型报告
+    title: "对比分析报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["对比的核心结论是什么？", "主要差异有哪些？"]
+      - title: "引言"
+        key_questions: ["对比的背景和目的是什么？", "对比的对象有哪些？"]
+      - title: "对比框架"
+        key_questions: ["对比的标准是什么？", "评估维度有哪些？"]
+      - title: "详细对比分析"
+        key_questions: ["各维度的具体对比结果如何？", "优劣分析是什么？"]
+      - title: "综合评估"
+        key_questions: ["综合优势和劣势是什么？", "适用场景有哪些？"]
+      - title: "案例研究"
+        key_questions: ["实际应用案例有哪些？", "案例的启示是什么？"]
+      - title: "结论与建议"
+        key_questions: ["最终结论是什么？", "选择建议是什么？"]
+
+  causal_analysis:  # 因果分析型报告
+    title: "因果分析报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["因果关系的核心结论是什么？", "主要发现有哪些？"]
+      - title: "引言"
+        key_questions: ["研究背景是什么？", "问题的重要性如何？"]
+      - title: "理论框架"
+        key_questions: ["因果机制是什么？", "理论模型有哪些？"]
+      - title: "原因分析"
+        key_questions: ["主要原因有哪些？", "驱动因素是什么？"]
+      - title: "影响分析"
+        key_questions: ["主要影响有哪些？", "后果是什么？"]
+      - title: "案例研究"
+        key_questions: ["典型案例有哪些？", "案例的验证作用如何？"]
+      - title: "结论与启示"
+        key_questions: ["主要结论是什么？", "理论和实践启示是什么？"]
+
+  trend_prediction:  # 趋势预测型报告
+    title: "趋势预测报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["趋势预测的核心结论是什么？", "主要发现有哪些？"]
+      - title: "引言"
+        key_questions: ["预测的背景是什么？", "预测的重要性如何？"]
+      - title: "现状分析"
+        key_questions: ["当前状况如何？", "历史发展轨迹是什么？"]
+      - title: "驱动因素"
+        key_questions: ["主要驱动因素有哪些？", "影响力量是什么？"]
+      - title: "趋势预测"
+        key_questions: ["未来发展趋势是什么？", "预测依据有哪些？"]
+      - title: "情景分析"
+        key_questions: ["不同情景下的发展路径如何？", "关键转折点是什么？"]
+      - title: "案例研究"
+        key_questions: ["历史案例有哪些？", "案例的启示是什么？"]
+      - title: "结论与建议"
+        key_questions: ["主要结论是什么？", "应对策略是什么？"]
+
+  pros_cons:  # 利弊评估型报告
+    title: "利弊评估报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["利弊评估的核心结论是什么？", "主要发现有哪些？"]
+      - title: "引言"
+        key_questions: ["评估的背景是什么？", "评估的对象是什么？"]
+      - title: "评估框架"
+        key_questions: ["评估标准是什么？", "分析维度有哪些？"]
+      - title: "优势分析"
+        key_questions: ["主要优势有哪些？", "积极影响是什么？"]
+      - title: "劣势分析"
+        key_questions: ["主要劣势有哪些？", "消极影响是什么？"]
+      - title: "风险与机遇"
+        key_questions: ["主要风险是什么？", "潜在机遇有哪些？"]
+      - title: "案例研究"
+        key_questions: ["实际案例有哪些？", "案例的启示是什么？"]
+      - title: "结论与建议"
+        key_questions: ["综合评估结论是什么？", "决策建议是什么？"]
+
+  solution_proposal:  # 解决方案提出型报告
+    title: "解决方案报告"
+    sections:
+      - title: "执行摘要"
+        key_questions: ["解决方案的核心内容是什么？", "预期效果如何？"]
+      - title: "问题界定"
+        key_questions: ["问题的本质是什么？", "问题的重要性如何？"]
+      - title: "现状分析"
+        key_questions: ["当前状况如何？", "主要挑战是什么？"]
+      - title: "解决方案"
+        key_questions: ["具体解决方案是什么？", "实施步骤有哪些？"]
+      - title: "可行性分析"
+        key_questions: ["技术可行性如何？", "经济可行性如何？"]
+      - title: "预期效果"
+        key_questions: ["预期效果是什么？", "潜在影响有哪些？"]
+      - title: "实施建议"
+        key_questions: ["实施路径是什么？", "关键成功因素有哪些？"]
+      - title: "结论"
+        key_questions: ["主要结论是什么？", "下一步行动是什么？"]
+
+# 领域特定的模板调整
+domain_adjustments:
+  前沿科技与人工智能:
+    trends:
+      - "技术原理"
+      - "应用场景"
+      - "局限性"
+      - "伦理争议"
+    key_questions:
+      - "技术成熟度如何？"
+      - "创新点是什么？"
+      - "可能的伦理问题有哪些？"
+
+  商业模式与市场动态:
+    trends:
+      - "市场规模"
+      - "增长驱动"
+      - "竞争格局"
+      - "盈利模式"
+    key_questions:
+      - "市场机会有多大？"
+      - "竞争优势是什么？"
+      - "风险因素有哪些？"
+
+  可持续发展与环境治理:
+    trends:
+      - "政策法规"
+      - "技术创新"
+      - "经济效益"
+      - "社会影响"
+    key_questions:
+      - "环境影响如何？"
+      - "可持续性如何？"
+      - "政策支持度如何？"
+
+  社会变迁与文化趋势:
+    trends:
+      - "驱动因素"
+      - "文化表现"
+      - "代际差异"
+      - "社会影响"
+    key_questions:
+      - "社会接受度如何？"
+      - "文化适应性如何？"
+      - "长期影响是什么？"
+
+  生命科学与公共健康:
+    trends:
+      - "科学原理"
+      - "临床证据"
+      - "安全性"
+      - "可及性"
+    key_questions:
+      - "科学依据充分吗？"
+      - "风险收益比如何？"
+      - "伦理考量是什么？"
+
+  全球事务与未来治理:
+    trends:
+      - "地缘政治"
+      - "国际合作"
+      - "治理机制"
+      - "长远挑战"
+    key_questions:
+      - "国际共识度如何？"
+      - "治理有效性如何？"
+      - "长期可持续性如何？"

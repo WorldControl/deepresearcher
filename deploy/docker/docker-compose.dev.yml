@@ -1,0 +1,32 @@
+version: '3.8'
+
+# 开发环境专用配置
+# 使用方法: docker-compose -f deploy/docker/docker-compose.yml -f deploy/docker/docker-compose.dev.yml up
+
+services:
+  deep-researcher:
+    build:
+      context: ../../
+      dockerfile: deploy/docker/Dockerfile
+    volumes:
+      # 开发时挂载源代码，支持热重载
+      - ../../:/app
+      - /app/__pycache__
+      - /app/.git
+      - /app/deploy
+    environment:
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+      - STREAMLIT_SERVER_WATCH_FILE=true
+      - STREAMLIT_SERVER_RUN_ON_SAVE=true
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    command: >
+      sh -c "
+        echo '开发模式启动...' &&
+        python -m pip install --no-deps -e . &&
+        python start_app.py
+      "
+    stdin_open: true
+    tty: true

@@ -1,0 +1,6 @@
+{
+  "report_info": {
+    "generated_at": "2025-09-06T10:33:23.468299",
+    "error": "元数据生成失败: unsupported format string passed to NoneType.__format__"
+  }
+}

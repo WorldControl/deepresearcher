@@ -1,0 +1,11 @@
+langgraph
+langchain
+python-dotenv
+pydantic
+tiktoken
+langchain-openai
+fastapi
+uvicorn
+langchain-openai
+streamlit
+requests
